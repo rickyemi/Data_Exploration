@@ -1,3 +1,10 @@
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
+from matplotlib.backends.backend_pdf import PdfPages
+import numpy as np
+
 
 # strategy 1.0
 # 1. Select all the columns of the dataframe by dtype with .select_dtypes
